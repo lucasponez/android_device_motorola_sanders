@@ -15,3 +15,7 @@
 
 PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/legion_sanders.mk
+
+COMMON_LUNCH_CHOICES := \
+	legion_sanders-userdebug \
+        legion_sanders-eng
