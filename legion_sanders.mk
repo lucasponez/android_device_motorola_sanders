@@ -33,7 +33,7 @@ PRODUCT_DEVICE := sanders
 PRODUCT_NAME := legion_sanders
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
-PRODUCT_MODEL := Moto G5S Plus
+PRODUCT_MODEL := Moto G (5S) Plus
 
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -44,7 +44,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 $(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
 
 # FINGERPRINT
-BUILD_FINGERPRINT := google/walleye/walleye:9/PPP3.180510.008/4811556:user/release-keys 
+BUILD_FINGERPRINT := google/walleye/walleye:9/PPP3.180510.008/4811556:user/release-keys
 VENDOR_BUILD_FINGERPRINT := google/walleye/walleye:9/PPP3.180510.008/4811556:user/release-keys
 
 LEGION_BUILD_TYPE := OFFICIAL
