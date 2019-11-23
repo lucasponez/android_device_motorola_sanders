@@ -134,8 +134,8 @@ PRODUCT_PACKAGES += \
     gralloc.msm8953 \
 
 #Dirac
-PRODUCT_PACKAGES += \
-     Dirac
+#PRODUCT_PACKAGES += \
+#     Dirac
 
 # Display/Graphics
 PRODUCT_PACKAGES += \
