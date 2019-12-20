@@ -28,6 +28,9 @@ type akmd_data_file, file_type, data_file_type, core_data_file_type;
 
 type wapi_supplicant_data_file, file_type, data_file_type, core_data_file_type;
 
+# NETD
+type netd_socket, file_type, data_file_type, core_data_file_type;
+
 # RIL
 type netmgr_data_file, file_type, data_file_type, core_data_file_type;
 
@@ -57,3 +60,6 @@ type proc_touchpanel, fs_type;
 
 type camera_socket, file_type, data_file_type, core_data_file_type;
 type sysfs_screen_off_gestures, fs_type, sysfs_type, mlstrustedobject;
+
+# Themes
+type theme_data_file, file_type, data_file_type;
