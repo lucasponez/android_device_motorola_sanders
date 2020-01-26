@@ -28,6 +28,9 @@ $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+#Gapps
+TARGET_GAPPS_ARCH := arm64
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sanders
 PRODUCT_NAME := pixys_sanders
