@@ -12,3 +12,6 @@ else
     # Only XT1806 variant got a compass
     rm /vendor/etc/permissions/android.hardware.sensor.compass.xml
 fi
+
+
+insert_line init.rc "import /vendor/etc/init/hw/init.dtv.rc" after "import /init.usb.configfs.rc" "import /vendor/etc/init/hw/init.dtv.rc";
