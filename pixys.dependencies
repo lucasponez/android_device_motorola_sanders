@@ -1,0 +1,22 @@
+[
+  {
+    "repository":  "PixysOS-Devices/vendor_motorola_sanders",
+    "target_path": "vendor/motorola/sanders",
+    "branch":      "ten"
+  },
+  {
+    "repository":  "PixysOS-Devices/kernel_motorola_msm8953",
+    "target_path": "kernel/motorola/msm8953",
+    "branch":      "ten"
+  },
+  {
+    "repository":  "PixysOS/packages_apps_FMRadio",
+    "target_path": "packages/apps/FMRadio",
+    "branch":      "ten"
+  },
+  {
+    "repository":  "PixysOS/hardware_qcom_fm",
+    "target_path": "hardware/qcom/fm",
+    "branch":      "ten"
+  }
+]
