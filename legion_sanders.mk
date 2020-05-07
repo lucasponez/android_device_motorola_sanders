@@ -22,15 +22,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit from potter device
 $(call inherit-product, device/motorola/sanders/device.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
+# Inherit some common LegionOS stuff.
+$(call inherit-product, vendor/legion/config/common_full_phone.mk)
+
+LEGION_BUILD_TYPE := OFFICIAL
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sanders
-PRODUCT_NAME := aicp_sanders
+PRODUCT_NAME := legion_sanders
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_MODEL := Moto G (5S) Plus
@@ -51,3 +53,11 @@ $(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
 
 # FINGERPRINT
 BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
+
+ifeq ($(CURRENT_BUILD_TYPE), gapps)
+# Use Gapps
+TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+endif
