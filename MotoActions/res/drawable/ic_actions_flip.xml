@@ -21,7 +21,7 @@
     android:height="1600dp"
     android:viewportWidth="1600"
     android:viewportHeight="1600"
-    android:tint="?android:attr/colorControlNormal">
+    android:tint="@color/icon_tint">
     <group android:name="group">
         <path
             android:name="path"
