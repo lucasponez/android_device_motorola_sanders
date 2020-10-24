@@ -330,9 +330,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.0-impl \
-    android.hardware.power@1.0-service \
-    power.qcom
+    android.hardware.power-service-qti
 
 # Charger Images
 PRODUCT_PACKAGES += charger_res_images
