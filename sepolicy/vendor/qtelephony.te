@@ -1,3 +1,1 @@
-type qtelephony, domain, coredomain;
-
 allow qtelephony radio_service:service_manager find;
