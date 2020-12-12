@@ -1,3 +1,5 @@
+type dataservice_app, domain, mlstrustedsubject;
+
 binder_call(dataservice_app, cnd)
 
 allow dataservice_app cnd_data_file:file r_file_perms;
