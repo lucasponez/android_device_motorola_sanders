@@ -1,3 +1,5 @@
+type time_data_file, file_type, data_file_type;
+
 get_prop(time_daemon, diag_prop);
 
 allow time_daemon persist_file:file { open read write };
