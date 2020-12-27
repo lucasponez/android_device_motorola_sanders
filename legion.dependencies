@@ -1,11 +1,11 @@
 [
   {
-    "repository":  "legionos-devices/kernel_motorola_msm8953",
+    "repository":  "kernel_motorola_msm8953",
     "target_path": "kernel/motorola/msm8953",
     "branch":      "11"
   },
   {
-    "repository":  "legionos-devices/vendor_motorola_sanders",
+    "repository":  "vendor_motorola_sanders",
     "target_path": "vendor/motorola/sanders",
     "branch":      "11"
   },
