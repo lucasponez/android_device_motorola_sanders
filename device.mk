@@ -110,6 +110,7 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/enginedefault/config/example/phone/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_stream_volumes.xml
 
 # Bluetooth
+TARGET_USE_QTI_BT_STACK := false
 PRODUCT_PACKAGES += \
     libbt-vendor
 
