@@ -25,6 +25,10 @@ $(call inherit-product, device/motorola/sanders/device.mk)
 # Inherit some common LegionOS stuff.
 $(call inherit-product, vendor/legion/config/common_full_phone.mk)
 
+# LegionOS Device Maintainers
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.maintainer.name=Pintos
+
 LEGION_BUILD_TYPE := OFFICIAL
 
 # Boot animation
