@@ -1,1 +1,0 @@
-allow flipendo hal_power_default:binder call;
