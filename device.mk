@@ -320,8 +320,7 @@ PRODUCT_PACKAGES += \
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-legion
+    $(LOCAL_PATH)/overlay
 
 # Perf configs
 PRODUCT_COPY_FILES += \
