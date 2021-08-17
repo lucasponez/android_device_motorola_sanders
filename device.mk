@@ -108,7 +108,8 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 TARGET_USE_QTI_BT_STACK := false
 PRODUCT_PACKAGES += \
-    libbt-vendor
+    libbt-vendor \
+    libldacBT_bco
 
 # Camera
 PRODUCT_PACKAGES += \
