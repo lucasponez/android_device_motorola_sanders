@@ -182,6 +182,10 @@ TARGET_PROVIDES_LIBLIGHT := true
 # Manifest
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/manifest.xml
 DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/configs/compatibility_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+    $(DEVICE_PATH)/configs/sanders_framework_compatibility_matrix.xml \
+    vendor/qcom/opensource/core-utils/vendor_framework_compatibility_matrix.xml \
+    vendor/pa/config/aospa_vendor_framework_compatibility_matrix.xml
 
 # NFC
 NXP_CHIP_TYPE := PN551
