@@ -427,7 +427,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libcutils_shim \
     libqsap_shim \
-    libgpu_mapper_shim
+    libgpu_mapper_shim \
+    libshims_camera
 
 # Thermal
 PRODUCT_PACKAGES += \
