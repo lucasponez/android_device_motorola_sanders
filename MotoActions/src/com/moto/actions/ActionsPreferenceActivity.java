@@ -17,9 +17,9 @@
 package com.moto.actions;
 
 import android.os.Bundle;
-import android.preference.PreferenceActivity;
+import org.lineageos.settings.MonetPreferenceActivity;
 
-public class ActionsPreferenceActivity extends PreferenceActivity {
+public class ActionsPreferenceActivity extends MonetPreferenceActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
