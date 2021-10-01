@@ -360,7 +360,8 @@ PRODUCT_COPY_FILES += \
 
 # QTI Components
 TARGET_COMMON_QTI_COMPONENTS := \
-    bt
+    bt \
+    perf
 
 # Preopt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += \
