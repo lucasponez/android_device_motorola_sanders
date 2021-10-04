@@ -121,7 +121,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.mdpcomp.enable=true \
     dev.pm.dyn_samplingrate=1 \
     persist.demo.hdmirotationlock=false \
-    ro.opengles.version=196610 \
     ro.sf.lcd_density=400 \
     persist.debug.wfd.enable=1 \
     sdm.debug.disable_skip_validate=1 \
