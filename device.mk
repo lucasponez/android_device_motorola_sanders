@@ -314,7 +314,13 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libOmxVidcCommon \
-    libstagefrighthw
+    libstagefrighthw \
+    libc2dcolorconvert \
+    libmm-omxcore \
+    libOmxSwVencHevc \
+    libstagefright_enc_common \
+    libstagefright_omx.vendor \
+    libstagefright_softomx
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
